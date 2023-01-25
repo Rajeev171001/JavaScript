@@ -1,0 +1,34 @@
+// function statement
+// fn();// this function can be called before decleration
+// function fn(){
+//     console.log("i can be call this function before declaration")
+// }
+// fn();
+
+// function real(){
+//     console.log("hello");
+// }
+// real();//latest updated function call  we can call these functions from anywhere but latest updated function aleways called
+// function real(){
+//     console.log("world");
+// }
+// function real(){
+//     console.log("Rajeev");
+// }
+
+
+console.log("varName",varName);
+var varName;
+console.log("varName",varName);
+varName="Captain America";
+console.log("varName",varName);
+fn();
+function fn(){
+    console.log("Hello from fn");
+}
+fn();
+// fnContainer();
+var fnContainer=function(){
+    console.log("I m expression");
+}
+fnContainer();
