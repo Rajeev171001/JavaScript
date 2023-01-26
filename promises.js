@@ -12,11 +12,11 @@ console.log(promise);
 //setteled
 
 //if promise setteled and fullfilled
-promise.then(function(data){
+promise.then(function(data){  //then -> if condition
     console.log(""+data);
 })
 //if promise rejected
-promise.catch(function(err){
+promise.catch(function(err){ //catch -> else condition
     console.log(err);
 })
 console.log("after");
